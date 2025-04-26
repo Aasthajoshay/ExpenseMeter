@@ -1,4 +1,4 @@
-💸 Expense Tracker
+💸 Expense Meter
 An intuitive and responsive Expense Tracker application built with React.js to help users manage, categorize, and visualize their expenses effortlessly.
 It supports real-time expense tracking, persistent storage, and global state management using Context API.
 
