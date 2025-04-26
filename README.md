@@ -32,29 +32,12 @@ Chart.js
 
 ⚙️ Installation
 Clone the repository:
-
-bash
-Copy
-Edit
 git clone https://github.com/yourusername/expense-tracker.git
 Navigate into the project directory:
-
-bash
-Copy
-Edit
 cd expense-tracker
-Install dependencies:
-
-bash
-Copy
-Edit
 npm install
 Start the development server:
-
-bash
-Copy
-Edit
-npm start
+npm dev run
 The app will now run at http://localhost:3000 🚀
 
 🤝 Contributing
