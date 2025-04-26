@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    body {
+      @apply font-sans text-gray-800 bg-gray-50;
+    }
+  }
+  
+  /* Card styling */
+  @layer components {
+    .card {
+      @apply bg-white p-6 rounded-2xl shadow-md;
+    }
+    .card-header {
+      @apply text-xl font-semibold text-gray-800 mb-4;
+    }
+  }
+  
+  /* Button variants */
+  @layer components {
+    .btn {
+      @apply px-4 py-2 rounded-lg font-medium transition-all duration-200;
+    }
+    .btn-primary {
+      @apply bg-blue-500 text-white hover:bg-blue-600;
+    }
+    .btn-danger {
+      @apply bg-red-500 text-white hover:bg-red-600;
+    }
+    .btn-outline {
+      @apply border border-gray-300 text-gray-700 hover:bg-gray-100;
+    }
+  }
+  
+  /* Input styling */
+  @layer components {
+    .input {
+      @apply w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 transition-all;
+    }
+    .select {
+      @apply input;
+    }
+  }
+  
+  /* Flex container utilities */
+  @layer utilities {
+    .flex-center {
+      @apply flex items-center justify-center;
+    }
+    .flex-between {
+      @apply flex items-center justify-between;
+    }
+  }
+  
