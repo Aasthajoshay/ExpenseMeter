@@ -21,24 +21,20 @@ It supports real-time expense tracking, persistent storage, and global state man
 
 🛠️ Built With
 React.js
-
+Vite
 Context API
-
 LocalStorage
-
 CSS Flexbox/Grid
-
 Chart.js 
 
 ⚙️ Installation
 Clone the repository:
-git clone https://github.com/yourusername/expense-tracker.git
+git clone https://github.com/aasthajoshay/expense-tracker.git
 Navigate into the project directory:
 cd expense-tracker
 npm install
 Start the development server:
 npm dev run
-The app will now run at http://localhost:3000 🚀
 
 🤝 Contributing
 Pull requests are welcome!
