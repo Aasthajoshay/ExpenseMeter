@@ -13,19 +13,18 @@ A modern, full-stack expense tracker web application built using the MERN stack 
 - [API Overview](#api-overview)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
 ## Features
 
-- **User Authentication:** Secure registration and login using JWT and HTTP-only cookies[6].
-- **Expense Management:** Add, update, delete, and mark expenses as done/undone[7].
-- **Expense Categories:** Assign categories to expenses for better organization[1][7].
+- **User Authentication:** Secure registration and login using JWT and HTTP-only cookies.
+- **Expense Management:** Add, update, delete, and mark expenses as done/undone.
+- **Expense Categories:** Assign categories to expenses for better organization.
 - **Filtering:** Filter expenses by category or completion status[7].
 - **Interactive Charts:** Visualize expenses for better insight .
-- **Responsive UI:** Built with React and Vite for a fast, modern experience[9][8].
-- **RESTful API:** Modular backend with clear separation of concerns[4][7][6].
+- **Responsive UI:** Built with React and Vite for a fast, modern experience.
+- **RESTful API:** Modular backend with clear separation of concerns.
 
 ---
 
@@ -127,18 +126,18 @@ root/
 
 ### Authentication
 
-- **POST /api/v1/user/register** – Register a new user[6].
-- **POST /api/v1/user/login** – Login and receive JWT in HTTP-only cookie[6].
-- **GET /api/v1/user/profile** – Get current user profile[6].
-- **POST /api/v1/user/logout** – Logout and clear cookie[6].
+- **POST /api/v1/user/register** – Register a new user.
+- **POST /api/v1/user/login** – Login and receive JWT in HTTP-only cookie.
+- **GET /api/v1/user/profile** – Get current user profile.
+- **POST /api/v1/user/logout** – Logout and clear cookie.
 
 ### Expenses
 
-- **POST /api/v1/expense/** – Add a new expense[7].
-- **GET /api/v1/expense/** – Get all expenses for the user, with optional filtering[7].
-- **PATCH /api/v1/expense/:id** – Update an expense's details[7].
-- **PATCH /api/v1/expense/:id/done** – Mark expense as done/undone[7].
-- **DELETE /api/v1/expense/:id** – Delete an expense[7].
+- **POST /api/v1/expense/** – Add a new expense.
+- **GET /api/v1/expense/** – Get all expenses for the user, with optional filtering.
+- **PATCH /api/v1/expense/:id** – Update an expense's details.
+- **PATCH /api/v1/expense/:id/done** – Mark expense as done/undone.
+- **DELETE /api/v1/expense/:id** – Delete an expense.
 
 ---
 
@@ -156,8 +155,6 @@ root/
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for improvements or bug fixes.
-
----
 
 ---
 
